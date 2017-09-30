@@ -1,10 +1,11 @@
+#!/usr/bin/env python
+
 import os
 
 import discogs_client
 
 
-d = discogs_client.Client('discogs_wantlist/0.1', user_token=os.environ('DISCOGS_TOKEN'))
-
+d = discogs_client.Client('discogs_wantlist/0.1', user_token=os.environ['DISCOGS_TOKEN'])
 
 if __name__ == '__main__':
     me = d.identity()
