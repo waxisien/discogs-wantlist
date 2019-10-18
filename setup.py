@@ -16,6 +16,6 @@ setup(
         'oauthlib==2.0.4',
         'requests==2.18.4',
         'six==1.11.0',
-        'urllib3==1.22',
+        'urllib3==1.24.2',
     ],
 )
