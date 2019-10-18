@@ -14,7 +14,7 @@ setup(
         'discogs-client==2.2.1',
         'idna==2.6',
         'oauthlib==2.0.4',
-        'requests==2.18.4',
+        'requests==2.20.0',
         'six==1.11.0',
         'urllib3==1.22',
     ],
