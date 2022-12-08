@@ -9,7 +9,7 @@ setup(
     long_description=open('README.md').read(),
     url='http://github.com/waxisien/discogs-wantlist',
     install_requires=[
-        'certifi==2017.7.27.1',
+        'certifi==2022.12.7',
         'chardet==3.0.4',
         'discogs-client==2.2.1',
         'idna==2.6',
